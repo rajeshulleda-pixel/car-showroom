@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI
-app = Fastapi()
+app = FastAPI()
 
 @app.get("/cars")
 def view_all_cars():
